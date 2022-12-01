@@ -1,0 +1,31 @@
+@import "style.css";
+
+.no-print *{display: none !important;}
+
+/* themes */
+
+:root {
+	--color-primary: white;
+	--color-secondary: white;
+	--color-tertiary: white;
+	--color-font: black;
+	--color-highlight: black;
+	--color-accent: #a00;
+	--color-border: #ddd;
+	--color-shadow: #ddd;}
+
+/* general */
+
+html {font-size: 14px;}
+
+.breakafter {page-break-after: always;}
+
+/* header & footer */
+
+header, footer {display: none;}
+@page :footer, :header {display: none}
+@page {size: auto;  margin: 15mm;}
+
+/* links */
+
+a:link, a:visited {color: var(--color-accent);}
