@@ -1,0 +1,136 @@
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Alegreya:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+/* general */
+
+html {font-family: 'Alegreya', serif;}
+
+body {
+	background-color: var(--color-primary);
+	text-align: center;}
+
+br.single {display: block; content: ""; margin-top: 0; margin-bottom: 1rem;}
+
+/* styles */
+
+p, td, ul, li, th, h1, h2, h3, h4 {
+	margin-left: auto;
+	margin-right: auto;}
+
+p, td, ul, li {
+	font-weight: 400;
+	color: var(--color-font);}
+
+th, h1, h2, h3, h4 {
+	font-weight: 500;
+	color: var(--color-highlight);}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.4rem;}
+
+th, td, ul, li {
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 1.3rem;}
+
+h1 {
+	font-size: 1.3rem;
+	margin-top: 0;
+	margin-bottom: 0;}
+
+h2 {
+	font-size: 1.2rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.25rem;}
+
+h3 {
+	font-size: 1.15rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.25rem;}
+
+h4 {
+	font-size: 1.05rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0;}
+
+h1.alt, h2.alt, h3.alt {margin-top: 0;}
+
+ul {
+	display: inline-block;
+	list-style-position: inside;
+	text-align: left;
+	margin-left: 1.5rem;
+	margin-top: 0.25rem;
+	padding-left: 0;}
+
+ul ul {margin-top: 0;}
+
+p.justify, p.centerjustify {text-align: justify;}
+p.centerjustify {-moz-text-align-last: center; text-align-last: center;}
+
+p.bolditalic {font-style: italic; font-weight: 500}
+
+p.comment, p.centercomment {font-size: 0.8rem; line-height: 1rem;}
+p.comment {width: min(97vw, 40rem); text-align: justify;;}
+
+/* tables */
+
+table {
+	border-spacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 1rem;
+	border-bottom: 2px solid var(--color-border);}
+
+th {
+	font-weight: bold;
+	color: var(--color-highlight);
+	border-top: 2px solid var(--color-border);}
+
+thead th {
+	border-bottom: 2px solid var(--color-border);}
+
+col.buildlhs {width: 26rem;}
+col.buildrhs {width: 3.5rem;}
+.agehead {font-family: 'Alegreya SC', serif;}
+.advhead {font-style: italic;}
+
+table.benchmarktable {padding-top: 1.5rem;}
+col.benchmarklhs {width: 22rem;}
+col.benchmarkrhs {width: 3rem;}
+
+table.script {width: min(93vw, 50rem); border-bottom: 1px solid var(--color-border);}
+table.script td, table.script th {border-top: 1px solid var(--color-border); text-align: left;}
+col.scriptlhs {width: 6rem;}
+
+table.perfect td:nth-child(1) {font-weight: 500;}
+col.perfectlhs, col.perfectrhs {width: 6rem;}
+col.perfectmid {width: 3rem;}
+col.perfectgap {width: 1rem;}
+
+table.hotkey {border-bottom: 1px solid var(--color-border);}
+table.hotkey td, table.script th {border-top: 1px solid var(--color-border);}
+
+col.hotkeylhs {width: 13rem; text-align: left;}
+col.hotkeyrhs {width: 9rem;}
+
+/* images */
+
+img.resource {width: 1.5rem; height: 1.5rem; vertical-align: middle;}
+img.full {width: min(93vw, 50rem); height: min(52.3125vw, 28.125rem); border-radius: 0.25rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
+img.half {width: min(46.5vw, 25rem); height: min(26.15625vw, 14.0625rem); border-radius: 0.25rem; margin-top: 0.5rem; margin-bottom: 0.25rem;}
+
+/* written by john */
+.hotkeytable {
+	border: 1px dotted #999;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+}
+
+#hotkeytablebottom {
+	padding-bottom: 20px;
+}
