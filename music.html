@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html class="theme-white notranslate" lang="en" translate="no">
+
+<head>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+  <style>
+
+      #playlist{
+          list-style: none;
+          text-align: center;
+      }
+      #playlist li a{
+          color:black;
+          text-decoration: none;
+      }
+      #playlist .current-song a{
+          color:blue;
+      }
+      
+    @media screen {
+      html {
+        display: none;
+      }
+    }
+    
+  </style>
+  <!-- Source Code From YouTube.com/MicroTechTutorials  you may remove this message on your webpage but please do not redistribtue -->
+ 
+  <title class="no-print">Joh's Build Order Reference</title>
+  <meta name="google" content="notranslate" charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="javascript/script.js"></script>
+</head>
+
+
+  
+
+<body>
+
+  <header>
+    <div class="header">
+      <div class="header-adspace">
+      </div>
+      <div class="header-title">
+        <h1>Joh's Build Order Reference</h1>
+      </div>
+      <div class="header-theme">
+        <button class="button-theme button-white" onclick="setWhite()"></button>
+        <button class="button-theme button-sepia" onclick="setSepia()"></button>
+        <button class="button-theme button-night" onclick="setNight()"></button>
+      </div>
+      <div class="header-menu"><a class="current" href="index.html">Builds</a><a class="current" href="hotkeys.html">Hot Keys</a><a class="current" href="music.html">Music</a>
+        <a class="current" href="pics.html">Pics</a></div>
+        <!--
+        <a href="mods.html">Mods</a><a href="faq.html">FAQ</a><a href="pics.html">Pics</a>
+
+        consider adding the traveller by christopher moe ditlevsen
+      -->
+    </div>
+  </header>
+
+  <h3><b>Age-of-Empires-like Music Player</b></h3>
+
+ 
+  <div>
+  <audio src="" controls id="audioPlayer">
+    Sorry, your browser doesn't support html5!
+  </audio>
+
+  </div>
+  <div>
+<ul id="playlist">
+    <br>
+    <p><i>Written by Terry Devine King:</i></p>
+    <li class="current-song"><a href="01-Accross The Ocean.mp3">Accross The Ocean</a></li>
+    <li><a href="02-Time Frame.mp3">Time Frame</a></li>
+    <li><a href="03-Amazonia.mp3">Amazonia</a></li>
+    <li><a href="04-White Lines.mp3">White Lines</a></li>
+    <li><a href="05-In Research.mp3">In Research</a></li>
+    <li><a href="06-Red Dawn.mp3">Red Dawn</a></li>
+    <li><a href="07-Borderland.mp3">Borderland</a></li>
+    <li><a href="08-Land of Freedom.mp3">Land of Freedom</a></li>
+    <li><a href="09-Epic Choral Uplifting Orchestral.mp3">Epic Choral</a></li>
+    <li><a href="10-Land of promise.mp3">Land of Promise</a></li>
+    <li><a href="11-Exploration B.mp3">Exploration</a></li>
+    <br>
+    <i>Age of Mythology:</i>
+    <li><a href="Age of Mythology Soundtrack.mp3">Age of Mythology OST</a></li>
+
+    <br>
+    <i>Rise of Nations:</i>
+    <li><a href="19-Rise of Nations Soundtrack -Full-.mp3">Rise of Nations Soundtrack</a></li>
+    <li><a href="Across the Bog Guitar Cover-Family Jules.mp3">Across the Bog Guitar Cover</a></li>
+    <li><a href="High Strung Rise of Nations Guitar Cover.mp3">High Strung Guitar Cover</a></li>
+
+    <br>
+    <i>Empire Earth:</i>
+    <li><a href="BalanceOfPower.mp3">Balance of Power</a></li>
+    <li><a href="Emnity.mp3">Emnity</a></li>
+    <li><a href="Rivers.mp3">Rivers</a></li>
+    <li><a href="Shadows.mp3">Shadows</a></li>
+    <li><a href="Time.mp3">Time</a></li>
+    <li><a href="18-Behold the Darkness Medwyn Goodall.mp3">Behold the Darkness - Medwyn Goodall</a></li>
+
+
+    <br>
+    <i>AOE1:</i>
+    <li><a href="A0E1 + AOE1 Rise of Rome Expansion.mp3">A0E1 + AOE1 Rise of Rome Expansion soundtracks</a></li>
+
+    <br>
+    <i>AOE2:</i>
+    <li><a href="15-Age of Empires II - Age of Kings Full Soundtrack.mp3">Age of Empires II - Age of Kings</a></li>
+    <li><a href="16-Age of Empires 2 The Conquerors OST.mp3">Age of Empires II - The Conquerors</a></li>
+    
+    <br>
+    <br>
+
+    <h4>notes and thoughts:</h4>
+    <br>
+    <p>1. it may take a while for your browser to actually load all the tracks.  It won't work right away.</p>
+    <br>
+    
+    <p>
+      2. there's something
+      wrong with the player not playing the next track sometimes, sometimes it goes back to the first one, but you can just click the 
+      little dot to the end over and over, and this will make it work right enough to use, it will skip 2 at first, then start skipping only one.
+      I could fix this eventually, if you're one of the 2-5 people reading this maybe you can probably just fix it locally right now, 
+      the problem is in audioplayer.js, but i'm not going to have time to fix it in the near future.</p>
+      <br>
+      <p>3. I'd like to add a skip track 
+      button or maybe make this into a semi-radio-player that plays a track at random, and i can do both those things but don't have time for that right
+      now either</p>
+      <br>
+      <p>4. Those two guitar covers are obviously not me, they are by a youtube channel named family jules, which i didn't want to write there.</p>
+        <br>
+        <p>5. The song Emnity from the Empire Earth soundtrack was used in the background of several history channel and other documentaries throughout the 90's and
+          early 2000's.  It was also in several other game soundtracks and was called other things.  It was also in a sci fi channel show called farscape a lot.   
+          After some research i did in maybe 2004 about where this song really came from, I began to believe that the original song that all the game and tv show 
+          and documentary songs were based off of was behold the darkness by medwyn goodall, but who knows?</p>
+        <br>
+        <p>6. Terry Devine King's songs were also used in several historical documentaries, more likely to be on discovery.  He ended up writing some avengers music.  
+          There was one good documentary about the incas i used to like (though i guess they weren't added to the game until much later),
+          if i happen to find it, maybe i'll make a documentaries page on here.  His music was written for these shows, but the shows tended to be about one or 
+          another civilization from age of empires, and it's clear from listening to it that he was not thinking of the documentary he was supposedly contracted to write songs for.
+          He was probably thinking of age of empires.
+        </p>
+        <br>
+        <p>7. I don't think this is the best music in the world, but i do kind of like it enough to put it all here.
+        </p>
+        <br>
+
+        <p>8. Working cds of the original age of empires 1 are i guess rare these days, so most of the soundtracks on youtube are in some type of midi,
+          maybe from the several pirated versions there are.  It's to the point that if anyone thinks about it, which i hope they don't, they probably think it was
+          always very low quality midi music.  It wasn't that way though, it was played off of a cd, and it sounded slightly better. I got the cd version 
+          but finding it took a little while longer than it did for other soundtracks. 
+        </p>
+        <br>
+      <p>9. I think it's a not a good idea to listen to music in a game against a difficult human opponent, but sometimes good if you're practicing against an ai, or if you
+        are sure you're going to win, it can be nice.  I definitely used to listen to it all the time as a kid, maybe i didn't know how to turn it off or thought it was wrong
+        to turn it off.  It's probably still wrong to turn off the age of mythology soundtrack while playing age of mythology.
+      </p>
+      <br>
+      <br>
+
+    
+    
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script src="audioPlayer.js"></script>
+<script>
+    // loads the audio player
+    audioPlayer();
+</script>
+
+
+  <br class="single">
+
+  <footer>Created by Cicero, Stolen by Joh</footer>
+
+  <link rel="stylesheet" href="css/screen.css" media="screen">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</body>
+
+</html>
